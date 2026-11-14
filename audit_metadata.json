@@ -1,0 +1,150 @@
+{
+  "source_repo": "django-cms/django-cms",
+  "source_url": "https://github.com/django-cms/django-cms",
+  "audit_date": "2026-11-14T10:03:16.543101",
+  "scanner_version": "1.3.0",
+  "findings_count": 17,
+  "severity_breakdown": {
+    "HIGH": 13,
+    "CRITICAL": 1,
+    "MEDIUM": 3
+  },
+  "findings": [
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "cms/tests/frontend/unit/helpers/fixture.js",
+      "line": 80
+    },
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "cms/tests/frontend/unit/helpers/fixture.js",
+      "line": 88
+    },
+    {
+      "id": "JS-EVAL-001",
+      "name": "Code injection via eval()",
+      "severity": "CRITICAL",
+      "cwe": "CWE-95",
+      "file": "cms/tests/frontend/unit/helpers/fixture.js",
+      "line": 95
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "cms/tests/test_grouper_admin.py",
+      "line": 1338
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "cms/tests/test_grouper_admin.py",
+      "line": 1344
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "cms/tests/test_grouper_admin.py",
+      "line": 1351
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "cms/tests/test_grouper_admin.py",
+      "line": 1358
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "cms/tests/test_grouper_admin.py",
+      "line": 1365
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "cms/tests/test_grouper_admin.py",
+      "line": 1372
+    },
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "cms/static/cms/js/libs/jquery.min.js",
+      "line": 2
+    },
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "cms/static/cms/js/libs/jquery.min.js",
+      "line": 4
+    },
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "cms/static/cms/js/libs/jquery.min.js",
+      "line": 5
+    },
+    {
+      "id": "JS-REGEX-001",
+      "name": "ReDoS via backtracking regex",
+      "severity": "MEDIUM",
+      "cwe": "CWE-1333",
+      "file": "cms/static/cms/js/libs/jquery.min.js",
+      "line": 2
+    },
+    {
+      "id": "JS-REGEX-001",
+      "name": "ReDoS via backtracking regex",
+      "severity": "MEDIUM",
+      "cwe": "CWE-1333",
+      "file": "cms/static/cms/js/libs/jquery.min.js",
+      "line": 4
+    },
+    {
+      "id": "JS-REGEX-001",
+      "name": "ReDoS via backtracking regex",
+      "severity": "MEDIUM",
+      "cwe": "CWE-1333",
+      "file": "cms/static/cms/js/libs/jquery.min.js",
+      "line": 5
+    },
+    {
+      "id": "JS-XSS-001",
+      "name": "DOM XSS via innerHTML",
+      "severity": "HIGH",
+      "cwe": "CWE-79",
+      "file": "cms/static/cms/js/libs/jstree/jstree.min.js",
+      "line": 10
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "cms/tests/test_admin.py",
+      "line": 719
+    }
+  ]
+}
